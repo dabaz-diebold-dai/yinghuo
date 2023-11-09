@@ -10,17 +10,13 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://yinghuo.dabaz.me'),
   title: {
     default: '映火',
-    template: '%s | 映火'
+    template: '%s - 映火'
   },
-  description: '与映火一同开启您的专业摄影之旅',
-
-  alternates: {
-    canonical: '/',
-  },
+  description: '与映火一同开启您的专业摄影之旅。',
 
   openGraph: {
     title: '映火',
-    description: '与映火一同开启您的专业摄影之旅',
+    description: '与映火一同开启您的专业摄影之旅。',
     url: 'https://yinghuo.dabaz.me',
     siteName: '映火',
     images: [
@@ -28,7 +24,7 @@ export const metadata: Metadata = {
         url: 'https://yinghuo.dabaz.me/opengraph-image.jpg',
         width: 1920,
         height: 1280,
-        alt: '与映火一同开启您的专业摄影之旅',
+        alt: '与映火一同开启您的专业摄影之旅。',
       },
     ],
     locale: 'en_US',
@@ -57,12 +53,12 @@ export const metadata: Metadata = {
 
   twitter: {
     card: 'summary_large_image',
-    title: 'DabAZ',
-    description: '与映火一同开启您的专业摄影之旅',
+    title: '映火',
+    description: '与映火一同开启您的专业摄影之旅。',
     creator: '@dabaz_official',
     images: {
       url: 'https://yinghuo.dabaz.me/twitter-image.jpg',
-      alt: '与映火一同开启您的专业摄影之旅',
+      alt: '与映火一同开启您的专业摄影之旅。',
     },
   },
 }
