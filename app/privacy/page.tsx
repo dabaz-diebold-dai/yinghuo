@@ -1,8 +1,5 @@
 import type { Metadata } from 'next'
 
-import AboutHero from '@/components/sections/about/AboutHero'
-import AboutArticle from '@/components/sections/about/AboutArticle'
-
 export const metadata: Metadata = {
   title: '隐私政策',
   description: '欢迎您选择映火文化传媒的服务。我们非常重视您的隐私和个人信息保护。',
@@ -35,7 +32,7 @@ export const metadata: Metadata = {
   },
 }
 
-export default function About() {
+export default function Privacy() {
   return (
     <div className="relative py-16 bg-neutral-950 overflow-hidden">
       <div className="relative px-4 sm:px-6 lg:px-8">
