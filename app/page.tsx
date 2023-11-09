@@ -1,3 +1,4 @@
+import FAQ from '@/components/sections/FAQ'
 import Feature from '@/components/sections/Feature'
 import Hero from '@/components/sections/Hero'
 import Testmonial from '@/components/sections/Testimonial'
@@ -9,6 +10,7 @@ export default function Home() {
       <Hero />
       <Feature />
       <Testmonial />
+      <FAQ />
     </main>
   )
 }

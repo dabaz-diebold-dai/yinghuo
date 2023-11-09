@@ -5,7 +5,7 @@ export default function Feature() {
     <div className="bg-neutral-950 py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
-          <p className="mt-2 text-3xl font-bold tracking-tight text-neutral-100 sm:text-4xl">
+          <p className="mt-2 text-3xl font-bold tracking-tight text-orange-400 sm:text-4xl">
             精选器材，专业选择
           </p>
           <p className="mt-6 text-lg leading-8 text-neutral-400">
