@@ -5,7 +5,7 @@ export default function Testmonial() {
     <section className="relative isolate overflow-hidden bg-neutral-950
    px-6 py-24 sm:py-32 lg:px-8">
       <div className="mx-auto max-w-2xl lg:max-w-4xl text-left md:text-center">
-        <h2 className="mt-2 text-3xl font-bold tracking-tight text-neutral-100 sm:text-4xl">
+        <h2 className="mt-2 text-3xl font-bold tracking-tight text-orange-400 sm:text-4xl">
           用户评价
         </h2>
         {testimonials.map((testimonial) => (
