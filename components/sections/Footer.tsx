@@ -76,7 +76,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-12 border-t border-neutral-800 pt-8">
-          <p className="text-base text-neutral-400 xl:text-center">&copy; {today.getFullYear()} 映火 版权所有</p>
+          <p className="text-base text-neutral-400 xl:text-center">&copy; {today.getFullYear()} 北京映火文化传媒有限公司 版权所有</p>
         </div>
       </div>
     </footer>

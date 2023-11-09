@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
     <div className="relative isolate">
-      <div className="absolute inset-0 -z-50">
+      <div className="absolute inset-0 -z-50 overflow-hidden">
         <video
           autoPlay
           muted

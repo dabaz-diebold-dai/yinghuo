@@ -20,7 +20,7 @@ export default function Navbar() {
             <Link
               key={item.name}
               href={item.href}
-              className="-mx-3 block rounded-lg px-3 py-2 text-base font-medium leading-7 text-neutral-50 hover:bg-neutral-900 transition-colors"
+              className="-mx-3 block rounded-lg px-5 md:px-3 py-2 text-base font-medium leading-7 text-neutral-50 hover:bg-neutral-900 transition-colors"
             >
               {item.name}
             </Link>

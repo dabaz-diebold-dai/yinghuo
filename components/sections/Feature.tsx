@@ -16,7 +16,7 @@ export default function Feature() {
           <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
             {features.map((feature) => (
               <div key={feature.name} className="relative pl-16">
-                <dt className="text-base font-semibold leading-7 text-neutral-100">
+                <dt className="text-lg font-semibold leading-7 text-neutral-100">
                   <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-orange-400">
                     <feature.icon className="h-6 w-6 text-neutral-950" aria-hidden="true" />
                   </div>
