@@ -1,10 +1,7 @@
 import type { Metadata } from 'next'
 
-import FAQ from '@/components/sections/home/FAQ'
-import Feature from '@/components/sections/home/Feature'
-import Hero from '@/components/sections/home/Hero'
-import Testmonial from '@/components/sections/home/Testimonial'
 import AboutHero from '@/components/sections/about/AboutHero'
+import AboutArticle from '@/components/sections/about/AboutArticle'
 
 export const metadata: Metadata = {
   title: '关于我们',
@@ -42,9 +39,7 @@ export default function About() {
   return (
     <main className="flex min-h-screen flex-col justify-between">
       <AboutHero />
-      <Feature />
-      <Testmonial />
-      <FAQ />
+      <AboutArticle />
     </main>
   )
 }

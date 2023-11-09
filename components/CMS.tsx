@@ -1,4 +1,4 @@
-import { CameraIcon, ChatBubbleLeftRightIcon, PresentationChartLineIcon, UserCircleIcon } from '@heroicons/react/24/outline'
+import { CameraIcon, ChartBarIcon, ChatBubbleLeftRightIcon, HandThumbUpIcon, PresentationChartLineIcon, SparklesIcon, UserCircleIcon, UserGroupIcon } from '@heroicons/react/24/outline'
 
 export const navItems = [
   { name: '首页', href: '/' },
@@ -62,12 +62,12 @@ export const faqs = [
   {
     id: "2",
     question: '如果我是摄影初学者，映火能为我提供哪些帮助？',
-    answer: '映火不仅为初学者提供高性价比的入门器材，还有丰富的教程和指导服务。我们的专家团队可以帮助您选择最适合您需求的设备，并指导您如何使用它们。',
+    answer: '映火不仅为初学者提供高性价比的入门器材，还有丰富的指导服务。我们的专家团队可以帮助您选择最适合您需求的设备，并指导您如何使用它们。',
   },
   {
     id: "3",
     question: '在映火购买器材后，如果遇到技术问题，该如何获得支持？',
-    answer: '我们提供全天候的技术支持服务。您可以通过电话、电邮或我们的在线客服平台联系我们的技术支持团队，我们会尽快帮您解决问题。',
+    answer: '我们提供全天候的技术支持服务。您可以通过电子邮件联系我们的技术支持团队，我们会尽快帮您解决问题。',
   },
   {
     id: "4",
@@ -174,3 +174,51 @@ export function Dribbble() {
     </svg>
   )
 }
+
+export const values = [
+  {
+    name: '品质至上',
+    description:
+      '我们坚信，优质的产品是企业的生命线，我们对每一件出售的器材负责，确保它们能够满足最严苛的品质要求。',
+    icon: HandThumbUpIcon,
+  },
+  {
+    name: '顾客为先',
+    description:
+      '顾客的满意是我们不懈追求的目标。我们倾听每一位顾客的反馈，持续优化我们的服务，以期超越顾客的期待。',
+    icon: UserGroupIcon,
+  },
+  {
+    name: '创新驱动',
+    description:
+      '在快速发展的市场中，创新是我们不断前进的动力。我们探索前沿技术，不断更新产品线，为顾客带来更多选择和可能。',
+    icon: SparklesIcon,
+  },
+  {
+    name: '共同成长',
+    description:
+      '我们相信，与顾客、合作伙伴以及员工的共同成长能够带动企业的持续进步。我们投资于人才和技术，以确保能够与所有利益相关者共享成功。',
+    icon: ChartBarIcon,
+  },
+]
+
+export const people = [
+  {
+    name: '赵腾飞',
+    role: 'CEO 首席执行官',
+    imageUrl:
+      '/images/zhaotengfei.jpg',
+  },
+  {
+    name: '夏艺珂',
+    role: 'CFO 首席财务官',
+    imageUrl:
+      '/images/xiayike.jpg',
+  },
+  {
+    name: '戴博',
+    role: 'CTO 首席技术官',
+    imageUrl:
+      '/images/dabaz.jpg',
+  },
+]
