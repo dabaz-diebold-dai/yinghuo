@@ -5,7 +5,7 @@ export default function Hero() {
         <div className="hidden sm:mb-8 sm:flex sm:justify-center">
           <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-neutral-400 ring-1 ring-neutral-100/10 hover:ring-neutral-100/20">
             我们现在已开启官网的博客。{' '}
-            <a href="#" className="font-semibold text-neutral-50">
+            <a href="/blog" className="font-semibold text-orange-400 hover:text-orange-500 transition-colors">
               <span className="absolute inset-0" aria-hidden="true" />
               深入了解 -&gt;
             </a>

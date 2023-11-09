@@ -6,7 +6,7 @@ import { navItems } from "@/components/CMS";
 
 export default function Navbar() {
   return (
-    <header className="top-0 z-50 flex-shrink-0 py-3 bg-neutral-950/50 backdrop-blur border-b border-neutral-950 sticky">
+    <header className="top-0 z-50 flex-shrink-0 py-3 bg-neutral-950/50 backdrop-blur-md border-b border-neutral-700 sticky">
       <div className="container flex flex-col justify-between px-6 mx-auto md:flex-row md:items-center">
         <Link href="/" className="flex items-center mx-auto md:items-start mt-2 md:mt-0">
           <img
