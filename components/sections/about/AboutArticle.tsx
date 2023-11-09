@@ -45,11 +45,11 @@ export default function AboutArticle() {
             我们的团队
           </p>
           <div className="mt-12 mx-auto max-w-7xl">
-            <ul role="list" className="grid gap-x-8 gap-y-8 grid-cols-4">
+            <ul role="list" className="grid gap-x-8 gap-y-8 grid-cols-1 md:grid-cols-3">
               {people.map((person) => (
                 <li key={person.name}>
                   <div className="flex items-center gap-x-6">
-                    <img className="h-16 w-16 rounded-full" src={person.imageUrl} alt={person.name} />
+                    <img className="h-16 w-16 md:h-20 md:w-20 rounded-full" src={person.imageUrl} alt={person.name} />
                     <div>
                       <h3 className="text-base font-semibold leading-7 tracking-tight text-neutral-100">{person.name}</h3>
                       <p className="text-sm font-semibold leading-6 text-orange-400">{person.role}</p>
