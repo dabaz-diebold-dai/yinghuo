@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: '关于我们 - 映火',
     description: '映火文化传媒，源于2022年的创新思潮，我们将深厚的摄影器材知识与现代科技结合，致力于提供专业级的摄影设备及解决方案。',
-    url: 'https://yinghuo.dabaz.me',
+    url: 'https://yinghuo.dabaz.me/about',
     siteName: '映火',
     images: [
       {
