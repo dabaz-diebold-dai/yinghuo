@@ -8,7 +8,7 @@ export default function Testmonial() {
           用户评价
         </h2>
         {testimonials.map((testimonial) => (
-          <figure className="mt-10">
+          <figure key={testimonial.name} className="mt-10">
             <blockquote className="text-left md:text-center text-xl font-semibold leading-8 text-neutral-100 sm:text-2xl sm:leading-9">
               <p>
                 “{testimonial.content}”
