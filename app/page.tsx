@@ -1,7 +1,7 @@
-import FAQ from '@/components/sections/FAQ'
-import Feature from '@/components/sections/Feature'
-import Hero from '@/components/sections/Hero'
-import Testmonial from '@/components/sections/Testimonial'
+import FAQ from '@/components/sections/home/FAQ'
+import Feature from '@/components/sections/home/Feature'
+import Hero from '@/components/sections/home/Hero'
+import Testmonial from '@/components/sections/home/Testimonial'
 import Image from 'next/image'
 
 export default function Home() {
