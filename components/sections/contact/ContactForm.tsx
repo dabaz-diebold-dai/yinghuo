@@ -9,7 +9,11 @@ export default function ContactForm() {
   const [state, handleSubmit] = useForm("mdorjvqr");
 
   if (state.succeeded) {
-    return <p className="text-neutral-100 font-lg">感谢您的信息，我们将尽快回复。</p>;
+    return <div className="bg-neutral-950 py-24 sm:py-32">
+      <div className="mx-auto max-w-md lg:max-w-lg text-center">
+        <p className="text-neutral-100 text-xl">感谢您的信息，我们将尽快回复。</p>
+      </div>
+    </div>
   }
 
   return (
