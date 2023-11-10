@@ -67,7 +67,7 @@ export default function ContactForm() {
             />
           </div>
           <div className="text-center">
-            <button type="submit" disabled={state.submitting} className="text-neutral-950 bg-neutral-50 px-3.5 py-2.5 rounded-md text-sm mt-4">
+            <button type="submit" disabled={state.submitting} className="rounded-md bg-orange-400 px-3.5 py-2.5 text-sm font-semibold text-neutral-950 shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600 transition-colors mt-4">
               提交
             </button>
           </div>
