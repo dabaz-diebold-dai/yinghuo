@@ -107,7 +107,7 @@ export default function Privacy() {
           <p>
             我们可能不时更新本政策。对本政策的任何更改，我们会发布更新版本在我们的网站上，并在适当情况下通过其他途径通知您。
           </p>
-          <h2>7. 联系你们</h2>
+          <h2>7. 联系我们</h2>
           <p>
             如果您对本政策有任何疑问或顾虑，请通过<a href="mailto:yinghuo@dabaz.me" className="hover:text-orange-600 transition-colors">yinghuo@dabaz.me</a>与我们联系。
           </p>
