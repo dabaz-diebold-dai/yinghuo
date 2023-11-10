@@ -269,7 +269,7 @@ export const productItems = [
   },
 ]
 
-const posts = [
+export const posts = [
   {
     id: 1,
     title: 'Boost your conversion rate',
