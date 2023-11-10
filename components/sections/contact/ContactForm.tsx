@@ -29,7 +29,7 @@ export default function ContactForm() {
               type="text" 
               name="name"
               placeholder="请输入您的姓名"
-              className="my-4 bg-neutral-800 border-neutral-700"
+              className="my-4 bg-neutral-800 border-neutral-700 text-neutral-50"
             />
             <ValidationError 
               prefix="Name" 
@@ -44,7 +44,7 @@ export default function ContactForm() {
               type="email" 
               name="email"
               placeholder="请输入您的电子邮箱"
-              className="my-4 bg-neutral-800 border-neutral-700"
+              className="my-4 bg-neutral-800 border-neutral-700 text-neutral-50"
             />
             <ValidationError 
               prefix="Email" 
@@ -58,7 +58,7 @@ export default function ContactForm() {
               id="message"
               name="message"
               placeholder="请输入您的信息"
-              className="my-4 bg-neutral-800 border-neutral-700"
+              className="my-4 bg-neutral-800 border-neutral-700 text-neutral-50"
             />
             <ValidationError 
               prefix="Message" 
