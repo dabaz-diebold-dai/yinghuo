@@ -227,34 +227,64 @@ export const people = [
 export const productItems = [
   {
     id: 1,
-    name: 'Earthen Bottle',
-    href: '#',
-    price: '$48',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-    imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
+    name: '索尼 Alpha 7R IV 35mm full-frame camera',
+    price: '￥18498',
+    imageSrc: '/images/products/sony-alpha-a7r-iv.webp',
+    imageAlt: '这款全画幅无反相机以其6100万像素的高分辨率和快速自动对焦系统，为专业摄影提供了新的可能。',
   },
   {
     id: 2,
-    name: 'Nomad Tumbler',
-    href: '#',
-    price: '$35',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
-    imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
+    name: '佳能 EOS 5D Mark IV',
+    price: '￥16088',
+    imageSrc: '/images/products/canon-eos-5d-mark-iv.webp',
+    imageAlt: '一款多功能的全画幅数码单反相机，适合各种拍摄场景，从风光到人像，都能捕捉惊人的细节和色彩。',
   },
   {
     id: 3,
-    name: 'Focus Paper Refill',
-    href: '#',
-    price: '$89',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
-    imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
+    name: '佳能 EF 24-70mm f/2.8L II USM',
+    price: '￥13299',
+    imageSrc: '/images/products/canon-ef.webp',
+    imageAlt: '这款多功能变焦镜头以其出色的成像质量和大光圈成为专业摄影师的首选。',
   },
   {
     id: 4,
-    name: 'Machined Mechanical Pencil',
+    name: '索尼 FE 70-200mm f/2.8 GM OSS',
+    price: '￥18780',
+    imageSrc: '/images/products/sony-fe.webp',
+    imageAlt: '一款适用于索尼E卡口全画幅相机的远摄变焦镜头，无论是体育还是野生动物摄影，都能提供卓越性能。',
+  },
+  {
+    id: 5,
+    name: '曼富图Befree Advanced三脚架',
+    price: '￥3178',
+    imageSrc: '/images/products/manfrotto-bh.webp',
+    imageAlt: '适合旅行摄影师的轻便三脚架，结合了便携性与稳定性。',
+  },
+  {
+    id: 6,
+    name: '神牛V1闪光灯',
+    price: '￥3220',
+    imageSrc: '/images/products/godox-v1c-canon.webp',
+    imageAlt: '一款适用于多种相机品牌的便携式高性能闪光灯，为摄影师提供强大的光线支持。',
+  },
+]
+
+const posts = [
+  {
+    id: 1,
+    title: 'Boost your conversion rate',
     href: '#',
-    price: '$35',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
-    imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+    description:
+      'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
+    date: 'Mar 16, 2020',
+    datetime: '2020-03-16',
+    category: { title: 'Marketing', href: '#' },
+    author: {
+      name: 'Michael Foster',
+      role: 'Co-Founder / CTO',
+      href: '#',
+      imageUrl:
+        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
   },
 ]
