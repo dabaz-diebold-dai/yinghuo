@@ -4,7 +4,7 @@ var today = new Date();
 
 export default function Footer() {
   return (
-    <footer className="bg-neutral-950" aria-labelledby="footer-heading">
+    <footer className="bg-neutral-950 mt-16 mb-4 md:mt-8 md:mb-0" aria-labelledby="footer-heading">
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
@@ -21,7 +21,7 @@ export default function Footer() {
             </p>
           </div>
           <div className="mt-12 grid grid-cols-2 gap-8 xl:mt-0 xl:col-span-2">
-            <div className="md:grid md:grid-cols-2 md:gap-36">
+            <div className="md:grid md:grid-cols-2 md:gap-12">
               <div>
                 <h3 className="text-lg font-semibold text-neutral-300">公司</h3>
                 <ul role="list" className="mt-4 space-y-4">
