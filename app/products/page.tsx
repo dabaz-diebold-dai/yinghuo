@@ -1,4 +1,5 @@
 import ProductsHero from '@/components/sections/products/ProductsHero'
+import ProductsSection from '@/components/sections/products/ProductsSection'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -37,6 +38,7 @@ export default function Products() {
   return (
     <main className="flex min-h-screen flex-col justify-between">
       <ProductsHero />
+      <ProductsSection />
     </main>
   )
 }
