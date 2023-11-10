@@ -4,7 +4,7 @@ var today = new Date();
 
 export default function Footer() {
   return (
-    <footer className="bg-neutral-950 mt-16 mb-4 md:mt-8 md:mb-0" aria-labelledby="footer-heading">
+    <footer className="bg-neutral-950 mt-16 mb-4 md:mt-8 md:mb-0 px-6 mx-auto" aria-labelledby="footer-heading">
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
