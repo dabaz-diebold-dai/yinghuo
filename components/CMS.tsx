@@ -272,19 +272,18 @@ export const productItems = [
 export const posts = [
   {
     id: 1,
-    title: 'Boost your conversion rate',
-    href: '#',
+    title: '映火博客正式上线',
+    href: '/blog/first-blog',
     description:
-      'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
-    date: 'Mar 16, 2020',
-    datetime: '2020-03-16',
-    category: { title: 'Marketing', href: '#' },
+      '欢迎大家来到映火文化传媒的官方博客！这是我们的第一篇文章，标志着我们在摄影共享和交流道路上的新开始。在这里，我们将与您分享摄影的一切：从基础技巧到高级拍摄技巧，从最新器材评测到行业动态，我们希望这个博客能成为您获得灵感、学习新知识、提高摄影技巧的宝贵资源。',
+    date: 'Oct 16, 2023',
+    datetime: '2023-10-16',
     author: {
-      name: 'Michael Foster',
-      role: 'Co-Founder / CTO',
-      href: '#',
+      name: '戴博',
+      role: 'CTO 首席技术官',
       imageUrl:
-        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+        '/images/dabaz.jpg',
+      imageAlt: '戴博',
     },
   },
 ]
