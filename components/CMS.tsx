@@ -93,6 +93,7 @@ export const footerNavItems = {
   company: [
     { name: '关于我们', href: '/about' },
     { name: '博客', href: '/blog' },
+    { name: '产品', href: '/products' },
   ],
   legal: [
     { name: '隐私政策', href: '/privacy' },
